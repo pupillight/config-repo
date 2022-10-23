@@ -8,9 +8,9 @@ spring:
     active: dev
   cloud:
     config:
-      label: main
+      label: master
       name: test
-      profile: prod
+      profile: dev
       uri: http://localhost:8090/
 
   config:
