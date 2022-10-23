@@ -1,17 +1,10 @@
 server:
-  port: 8080
+  port: 8082
 
 spring:
   application:
     name: user-service
-  profiles:
-    active: prod
-  cloud:
-    config:
-      label: master
-      name: user-service
-      profile: prod
-      uri: http://localhost:8090/
+
 
   config:
     import: optional:configserver:http://localhost:8090/
