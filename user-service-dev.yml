@@ -9,7 +9,7 @@ spring:
   cloud:
     config:
       label: master
-      name: test
+      name: user-service
       profile: dev
       uri: http://localhost:8090/
 
