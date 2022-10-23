@@ -8,8 +8,8 @@ spring:
     active: prod
   cloud:
     config:
-      label: main
-      name: test
+      label: master
+      name: user-service
       profile: prod
       uri: http://localhost:8090/
 
